@@ -1,0 +1,16 @@
+@@ table languages
+        | locale |
+        | en     |
+       # | de     |
+       # | fi     |
+        #| fr     |
+       # | hk     |
+       # | it     |
+        #| nl     |
+        #| tr     |
+
+@@ parameterized using languages
+Homepage test for ${locale} language
+        selenium chrome https://www.quandoo.de/ 836x768
+            run scripts/accept_cookies.js
+            check specs/homepage.gspec

@@ -1,0 +1,19 @@
+# This covers Quandoo Listing Page Visual Testing
+========================================
+@objects
+    footer              xpath          //*[@id="root"]/section/div[4]/div/div/div[6]/div
+
+========================================
+# Validation on desktop resolutions
+@on desktop
+========================================
+
+= Footer section =
+    footer:
+        height ~ 37px
+        width ~ 165px
+
+
+
+
+
