@@ -4,7 +4,7 @@
 #   footer             xpath          //*[@id="root"]/section/div[4]/div/div/div[6]/div
 #   imprint            xpath          //div[2]/div/ul/li/a
 #   privacy_Policy     xpath          //div[2]/div/ul/li[2]/a
-    legal_menu-*       xpath         //*[@id="root"]/section/div[4]/div/div/div[1]/div/div[2]/div/ul/li/a
+   legal_menu-*       xpath         //*[@id="root"]/section/div[4]/div/div/div[1]/div/div[2]/div/ul/li/a
 
 ========================================
 # Validation on desktop resolutions

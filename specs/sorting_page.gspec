@@ -1,0 +1,18 @@
+# This covers Quandoo Listing Page Visual Testing
+========================================
+@objects
+   view-review             xpath         //*[@data-qa="reviews-description"]
+   reservation-init        xpath         //*[@data-vwo="reservation-init"]
+========================================
+# Validation on desktop resolutions
+@on desktop
+========================================
+
+
+
+= Filter section =
+    view-review:
+        text is "${i18n.find.review}"
+
+    reservation-init:
+        text contains "${i18n.find.reservation}"
